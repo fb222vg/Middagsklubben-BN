@@ -40,12 +40,23 @@ nav a:link, nav a:visited {
     color: lawngreen;
 }
 nav a:hover, nav a:active {
-    background-color: lightcoral;
+    background-color: rgb(141, 131, 131), 70);
     color: navy;
+}
+nav a.thisPage {
+    color: orange;
 }
 main {
     grid-area: main;
 }
 aside {
     grid-area: aside;
+}
+nav ul ul {
+    visibility:hidden;
+    flex-direction:row;
+}
+nav ul li:hover ul{
+    display: flex;
+    visibility: visible;
 }
