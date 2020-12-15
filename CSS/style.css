@@ -21,6 +21,7 @@ header {
 
 nav {
     grid-area: nav;
+    
 }
 nav ul {
     list-style: none;
@@ -30,6 +31,7 @@ nav ul {
     gap:2rem;
     flex-direction: row;
     text-align: center;
+    
 }
 nav a {
     text-decoration: none;
@@ -60,3 +62,5 @@ nav ul li:hover ul{
     display: flex;
     visibility: visible;
 }
+
+
